@@ -1,0 +1,11 @@
+en:
+  hi: Hi!
+  hello:
+    partial_scope:
+      rails: Hello, Rails!
+    html_safe_key:
+      html: <span>No escaping</span>
+  safe_html: <span>No escaping</span>
+  html_unsafe: <span>No escaping?</span>
+uk:
+  hi: Привіт
