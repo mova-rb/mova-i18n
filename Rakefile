@@ -19,7 +19,8 @@ task "test:rails" do
   Dir.glob("./test_rails/**/*_test.rb").each { |file| require file}
 end
 
-task :test => "test:i18n" do
+task :test do
+  sh "rake test:i18n" if [nil, rails_versions.last].include? ENV["RAILS"]
   sh "rake test:rails"
 end
 
