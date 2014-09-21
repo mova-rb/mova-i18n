@@ -1,5 +1,8 @@
 # Mova-I18n
 
+[![Gem Version](https://badge.fury.io/rb/mova-i18n.svg)](http://badge.fury.io/rb/mova-i18n)
+[![Build Status](https://travis-ci.org/mova-rb/mova-i18n.svg)](https://travis-ci.org/mova-rb/mova-i18n)
+
 **Mova-I18n** overwrites `translate/t` method of [I18n][i18n] in a way that delegates it to
 [Mova][mova] internals without major breaking of I18n API. This speeds up translation
 lookups while staying compatible with libraries that rely on I18n.
