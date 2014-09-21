@@ -37,7 +37,7 @@
 
 ```
 rake bundle
-rake test
+rake test:all
 ```
 
 ## Working with documentation
